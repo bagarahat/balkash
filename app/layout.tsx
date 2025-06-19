@@ -2,9 +2,18 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'Kaspi',
+  description: 'Kaspi',
+  manifest: '/manifest.json',
+  icons: {
+    icon: '/kaspi.jpeg',
+  },
+  appleWebApp: {
+    capable: true,
+    title: 'Kaspi',
+    statusBarStyle: 'default',
+  },
+  viewport: 'width=device-width, initial-scale=1, viewport-fit=cover',
 }
 
 export default function RootLayout({

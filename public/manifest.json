@@ -1,0 +1,20 @@
+{
+  "name": "Kaspi",
+  "short_name": "Kaspi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/kaspi.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/kaspi.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+} 
